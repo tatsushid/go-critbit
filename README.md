@@ -2,6 +2,8 @@ Crit-bit tree library written in Go
 ===================================
 
 [![GoDoc](https://godoc.org/github.com/tatsushid/go-critbit?status.svg)][godoc]
+[![Build Status](https://travis-ci.org/tatsushid/go-critbit.svg?branch=master)](https://travis-ci.org/tatsushid/go-critbit)
+[![Go Report Card](https://goreportcard.com/badge/github.com/tatsushid/go-critbit)](https://goreportcard.com/report/github.com/tatsushid/go-critbit)
 
 This is a [Crit-bit tree](http://cr.yp.to/critbit.html) implementation written in Go by referring [the C implementation and document](https://github.com/agl/critbit).
 
