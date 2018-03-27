@@ -110,7 +110,7 @@ func (t *Tree) findFirstDiffByte(k []byte, n *eNode) (pos int, other uint8, matc
 	} else if pos == len(n.key) {
 		return 0, 0, true
 	}
-	return pos-1, 0, false
+	return pos - 1, 0, false
 }
 
 func (t *Tree) findInsertPos(k []byte, pos int, other uint8) (*node, node) {
